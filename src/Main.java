@@ -1,7 +1,10 @@
+import com.offer.addition.addition;
+
 public class Main {
 
     public static void main(String[] args) {
-
-        System.out.println("Hello World!");
+        addition add=new addition();
+        int result=add.Add(4,5);
+        System.out.println(result);
     }
 }
